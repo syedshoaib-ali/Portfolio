@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white font-sans;
+}
+
+.skill-badge {
+  @apply flex items-center gap-2 px-4 py-2 bg-black/40 rounded-full border border-gray-700 transition duration-300 hover:border-purple-500 hover:scale-105;
+}
+
+.social-icon {
+  @apply p-4 rounded-full border border-gray-800 bg-white/5 backdrop-blur
+  hover:border-purple-500 hover:text-purple-400
+  transition duration-300 hover:scale-110;
+}
+
+html {
+  scroll-behavior: smooth;
+}
