@@ -50,7 +50,7 @@ function Home() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="file:///C:/Users/syeds/OneDrive/Documents/Syed_Shoaib.pdf"
               download
               className="px-6 py-3 rounded-lg border border-gray-700 hover:border-purple-400 hover:text-purple-400 transition duration-300"
             >
